@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>decompress "c:/test/test2.avi.gz" "d:/test/test2_.avi" "c:/test/test.avi.gz" "d:/test/test_.avi" "c:/test/test3.avi.gz" "d:/test/test3_.avi"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartArguments>decompress "c:/test/test2.avi.gz" "d:/test/test2_.avi" "c:/test/test.avi.gz" "d:/test/test_.avi" "c:/test/test3.avi.gz" "d:/test/test3_.avi"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>decompress "c:/test/test2.avi.gz" "d:/test/test2_.avi" "c:/test/test.avi.gz" "d:/test/test_.avi" "c:/test/test3.avi.gz" "d:/test/test3_.avi"</StartArguments>
+  </PropertyGroup>
+</Project>
